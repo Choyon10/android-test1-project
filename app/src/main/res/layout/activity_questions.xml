@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.choyon.examresulst.Questions"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Capital city of bangldesh?"
+        android:textSize="20dp"/>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/optionOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dhaka"
+            android:onClick="option"
+            />
+
+        <RadioButton
+            android:id="@+id/optionTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rajshahi">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khulna"
+            android:onClick="option" />
+
+        <RadioButton
+            android:id="@+id/op4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shylet"
+            android:onClick="option"
+            />
+
+
+    </RadioGroup>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="what`s called the brain of computer?"
+        android:textSize="20dp"/>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/q21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAM"
+            android:onClick="opt2"
+            />
+
+        <RadioButton
+            android:id="@+id/q22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Processor"
+            android:onClick="opt2"
+            />
+
+        <RadioButton
+            android:id="@+id/q23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROM"
+            android:onClick="opt2"
+            />
+
+        <RadioButton
+            android:id="@+id/q24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard disk"
+            android:onClick="opt2"
+            />
+
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Which one is OS?"
+
+        android:textSize="20dp"/>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/q31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MS word"
+            android:onClick="opt3"
+            />
+
+        <RadioButton
+            android:id="@+id/q32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open office"
+            android:onClick="opt3"
+            />
+
+        <RadioButton
+            android:id="@+id/q33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linux"
+            android:onClick="opt3"
+            />
+
+        <RadioButton
+            android:id="@+id/q34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Firefox"
+            android:onClick="opt3"
+            />
+
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Which is the DBMS application?"
+        android:textSize="20dp"/>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/q41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MS word"
+            android:onClick="opt4"
+            />
+
+        <RadioButton
+            android:id="@+id/q42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photoshop"
+            android:onClick="opt4"
+            />
+
+        <RadioButton
+            android:id="@+id/q43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notepad"
+            android:onClick="opt4"
+            />
+
+        <RadioButton
+            android:id="@+id/q44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="SQL"
+            android:onClick="opt4"
+            />
+
+
+    </RadioGroup>
+
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+         android:text="Next"/>
+
+
+
+
+
+
+</LinearLayout>
